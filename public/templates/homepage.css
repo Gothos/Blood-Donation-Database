@@ -1,0 +1,108 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color: #0d72ac;
+}
+.navbar {
+    background:#4c93bd;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('blood.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(102, 91, 91, 0.6);
+}
+.description-home{
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description-home h1 {
+	color: #089d50;
+}
+.description-home p {
+	color: rgb(255, 255, 255);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description-home button {
+    border:1px solid #000000;
+    background:#34b36b;
+    border-radius: 0;
+    color:#fff;
+}
+.description-home button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: rgb(56, 27, 27);
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+.footer-design {
+    color: #666;
+    padding: 40px 0;
+}
+.regtext{
+color:#050115;
+}
